@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.3 (unreleased)
+----------------
+
+- fixed CommentCleaner to allow list instead of string (lxml 5 compatibility)
+- python3 compatibility
+
+
 2.2 (unreleased)
 ----------------
 
@@ -105,4 +112,3 @@ Changelog
 ----------------------
 
 * First release
-

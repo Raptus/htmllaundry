@@ -71,7 +71,7 @@ CommentCleaner = LaundryCleaner(
             processing_instructions=False,
             frames=False,
             annoying_tags=False,
-            link_target="_blank")
+            link_target=[])
 
 
 __all__ = ['DocumentCleaner', 'LineCleaner', 'CommentCleaner']

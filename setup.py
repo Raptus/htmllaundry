@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 import sys
 
-version = '2.2.dev0'
+version = '2.3'
 
 if sys.version_info < (3, 2):
     extra = {
@@ -31,6 +31,7 @@ setup(name='htmllaundry',
           'Programming Language :: Python :: 2.7',
           'Programming Language :: Python :: 3',
           'Programming Language :: Python :: 3.2',
+          'Programming Language :: Python :: 3.11',
           'Topic :: Software Development :: Libraries :: Python Modules',
           'Topic :: Text Processing :: Markup :: HTML',
           ],
